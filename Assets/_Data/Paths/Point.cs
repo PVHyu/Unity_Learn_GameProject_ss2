@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Point : SaiMonoBehaviour
+public class Point : BaseMonoBehaviour
 {
     [SerializeField] protected Point nextPoint;
     public Point NextPoint =>  nextPoint;

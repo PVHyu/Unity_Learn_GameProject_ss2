@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ItemsDropManager : SaiSingleton<ItemsDropManager>
+public class ItemsDropManager : SingletonPattern<ItemsDropManager>
 {
     [SerializeField] protected ItemsDropSpawner spawner;
     public ItemsDropSpawner Spawner => spawner;

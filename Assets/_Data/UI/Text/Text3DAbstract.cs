@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public abstract class Text3DAbstract : SaiMonoBehaviour
+public abstract class Text3DAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected TextMeshPro textPro;
 

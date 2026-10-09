@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class LevelAbstract : SaiMonoBehaviour
+public abstract class LevelAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected int currentLevel = 1;
     public int CurrentLevel => currentLevel;

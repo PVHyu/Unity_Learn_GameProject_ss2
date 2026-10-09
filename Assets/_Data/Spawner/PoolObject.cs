@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public abstract class PoolObject : SaiMonoBehaviour
+public abstract class PoolObject : BaseMonoBehaviour
 {
     [SerializeField] protected DespawnBase despawn;
     public DespawnBase Despawn => despawn;

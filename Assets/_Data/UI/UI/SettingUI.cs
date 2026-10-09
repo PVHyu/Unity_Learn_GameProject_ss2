@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SettingUI : SaiSingleton<SettingUI>
+public class SettingUI : SingletonPattern<SettingUI>
 {
     protected bool isShow = true;
     protected bool IsShow => isShow;

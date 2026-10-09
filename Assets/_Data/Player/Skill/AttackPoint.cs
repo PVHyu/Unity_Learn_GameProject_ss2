@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackPoint : SaiMonoBehaviour
+public class AttackPoint : BaseMonoBehaviour
 {
     protected override void Reset()
     {

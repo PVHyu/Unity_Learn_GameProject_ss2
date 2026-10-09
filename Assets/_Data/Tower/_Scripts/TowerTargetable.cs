@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 [RequireComponent(typeof(SphereCollider))]
 
-public class TowerTargetable : SaiMonoBehaviour
+public class TowerTargetable : BaseMonoBehaviour
 {
     [SerializeField] protected SphereCollider sphereCollider;
     public SphereCollider SphereCollider => sphereCollider;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
-public class PlayerCtrl : SaiSingleton<PlayerCtrl>
+public class PlayerCtrl : SingletonPattern<PlayerCtrl>
 {
     [SerializeField] protected vThirdPersonController thirdPersonCtrl;
     public vThirdPersonController ThirdPersonController => thirdPersonCtrl;

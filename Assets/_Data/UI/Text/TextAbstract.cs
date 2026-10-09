@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class TextAbstract : SaiMonoBehaviour
+public class TextAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected TextMeshProUGUI textPro;
 

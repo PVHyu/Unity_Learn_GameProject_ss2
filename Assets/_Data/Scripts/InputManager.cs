@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InputManager : SaiSingleton<InputManager>
+public class InputManager : SingletonPattern<InputManager>
 {
     protected bool isAiming = false;
 
@@ -17,7 +17,8 @@ public class InputManager : SaiSingleton<InputManager>
 
     protected virtual void CheckAiming()
     {
-        this.isAiming = Input.GetMouseButton(1);
+        // this.isAiming = Input.GetMouseButton(1);
+        this.isAiming = Input.GetKey(KeyCode.Z);
     }
 
     protected virtual void CheckAttacking()
@@ -29,9 +30,9 @@ public class InputManager : SaiSingleton<InputManager>
             return;
         }
 
-        if (Input.GetMouseButton(0)) this.attackHold += Time.deltaTime;
+        if (Input.GetMouseButton(0) || Input.GetKey(KeyCode.X)) this.attackHold += Time.deltaTime;
 
-        if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0) ||  Input.GetKeyUp(KeyCode.X))
         {
             this.isAttackLight = this.attackHold < this.attackLightLimit;
             this.attackHold = 0;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyManagerCtrl : SaiMonoBehaviour
+public class EnemyManagerCtrl : BaseMonoBehaviour
 {
     [SerializeField] protected EnemySpawner enemySpawner;
     public EnemySpawner EnemySpawner => enemySpawner;

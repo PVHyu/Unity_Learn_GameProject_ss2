@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputHotkeys : SaiSingleton<InputHotkeys>
+public class InputHotkeys : SingletonPattern<InputHotkeys>
 {
     protected bool isToogleInventoryUI = false;
     public bool IsToogleInventoryUI => isToogleInventoryUI;

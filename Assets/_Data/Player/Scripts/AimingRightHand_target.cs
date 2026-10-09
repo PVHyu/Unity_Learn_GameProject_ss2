@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AimingRightHand_target : SaiMonoBehaviour
+public class AimingRightHand_target : BaseMonoBehaviour
 {
     protected override void ResetValue()
     {

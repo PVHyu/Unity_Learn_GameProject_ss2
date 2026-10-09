@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class InventoryUI : SaiSingleton<InventoryUI>
+public class InventoryUI : SingletonPattern<InventoryUI>
 {
     protected bool isShow = true;
     protected bool IsShow => isShow;

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SoundManager : SaiSingleton<SoundManager>
+public class SoundManager : SingletonPattern<SoundManager>
 {
     [SerializeField] protected SoundName bgName = SoundName.LastStand;
     [SerializeField] protected MusicCtrl bgMusic;

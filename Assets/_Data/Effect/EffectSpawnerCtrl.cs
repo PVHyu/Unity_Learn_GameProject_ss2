@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EffectSpawnerCtrl : SaiSingleton<EffectSpawnerCtrl>
+public class EffectSpawnerCtrl : SingletonPattern<EffectSpawnerCtrl>
 {
     [SerializeField] protected EffectSpawner spawner;
     public EffectSpawner Spawner => spawner;

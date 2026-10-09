@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class LookAtPlayer : SaiMonoBehaviour
+public class LookAtPlayer : BaseMonoBehaviour
 {
     [SerializeField] protected Transform playerCamera;
 

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public abstract class WeaponAbstract : SaiMonoBehaviour
+public abstract class WeaponAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected AttackPoint attackPoint;
     public AttackPoint AttackPoint => attackPoint;

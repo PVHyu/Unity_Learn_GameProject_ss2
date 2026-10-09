@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PathsManager : SaiSingleton<PathsManager>
+public class PathsManager : SingletonPattern<PathsManager>
 {
     [SerializeField] protected List<Path> paths = new();
 

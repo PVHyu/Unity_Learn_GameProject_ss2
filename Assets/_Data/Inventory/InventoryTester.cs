@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class InventoryTester : SaiMonoBehaviour
+public class InventoryTester : BaseMonoBehaviour
 {
     [ProButton]
     public virtual void AddTestItems(int count)

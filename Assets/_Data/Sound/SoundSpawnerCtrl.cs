@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SoundSpawnerCtrl : SaiSingleton<SoundSpawnerCtrl>
+public class SoundSpawnerCtrl : SingletonPattern<SoundSpawnerCtrl>
 {
     [SerializeField] protected SoundSpawner spawner;
     public SoundSpawner Spawner => spawner;

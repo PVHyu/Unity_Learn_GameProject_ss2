@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Weapons : SaiMonoBehaviour
+public class Weapons : BaseMonoBehaviour
 {
     [SerializeField] protected List<WeaponAbstract> weapons = new();
 

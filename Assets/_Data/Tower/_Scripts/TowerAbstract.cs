@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class TowerAbstract : SaiMonoBehaviour
+public abstract class TowerAbstract : BaseMonoBehaviour
 {
    [SerializeField] protected TowerCtrl towerCtrl;
 

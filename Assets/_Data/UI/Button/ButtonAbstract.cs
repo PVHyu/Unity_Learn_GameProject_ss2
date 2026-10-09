@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class ButttonAbstract : SaiMonoBehaviour
+public abstract class ButttonAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected Button button;
 

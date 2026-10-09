@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public abstract class SliderAbstract : SaiMonoBehaviour
+public abstract class SliderAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected Slider slider;
 

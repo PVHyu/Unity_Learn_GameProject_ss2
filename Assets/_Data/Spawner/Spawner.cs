@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Spawner<T> : SaiMonoBehaviour where T : PoolObject
+public abstract class Spawner<T> : BaseMonoBehaviour where T : PoolObject
 {
     [SerializeField] protected int spawnCount = 0;
     [SerializeField] protected Transform poolHolder;

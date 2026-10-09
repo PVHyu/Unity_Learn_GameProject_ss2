@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyMoving : SaiMonoBehaviour
+public class EnemyMoving : BaseMonoBehaviour
 {
     [SerializeField] protected EnemyCtrl enemyCtrl;
     [SerializeField] protected string pathName = "path_1";

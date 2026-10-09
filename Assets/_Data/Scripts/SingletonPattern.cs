@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class SaiSingleton<T> : SaiMonoBehaviour where T :SaiMonoBehaviour
+public abstract class SingletonPattern<T> : BaseMonoBehaviour where T :BaseMonoBehaviour
 {
     private static T _instance;
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using UnityEngine;
 
-public class InventoryManager : SaiSingleton<InventoryManager>
+public class InventoryManager : SingletonPattern<InventoryManager>
 {
     [SerializeField] protected List<InventoryCtrl> inventories;
     [SerializeField] protected List<ItemProfileSO> itemProfiles;

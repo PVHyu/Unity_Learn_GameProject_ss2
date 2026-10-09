@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletCtrl : SaiMonoBehaviour
+public class BulletCtrl : BaseMonoBehaviour
 {
     [SerializeField] protected Bullet bullet;
     public Bullet Bullet => bullet;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class AttackAbstract : SaiMonoBehaviour
+public abstract class AttackAbstract : BaseMonoBehaviour
 {
     [SerializeField] protected PlayerCtrl playerCtrl;
     [SerializeField] protected EffectSpawner spawner;

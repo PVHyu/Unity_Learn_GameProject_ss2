@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(SphereCollider))]
-public class ItemPicker : SaiMonoBehaviour
+public class ItemPicker : BaseMonoBehaviour
 {
     [SerializeField] protected SphereCollider sphereCollider;
 

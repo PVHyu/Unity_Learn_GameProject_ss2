@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CrosshairPointer : SaiMonoBehaviour
+public class CrosshairPointer : BaseMonoBehaviour
 {
     protected float maxDistance = 100f;
     protected Collider hitObj;

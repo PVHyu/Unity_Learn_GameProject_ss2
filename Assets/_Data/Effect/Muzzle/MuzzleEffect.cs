@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class MuzzleEffect : SaiMonoBehaviour
+public class MuzzleEffect : BaseMonoBehaviour
 {
     [SerializeField] protected MuzzleCode muzzle;
     // [SerializeField] protected EffectSpawner spawner;

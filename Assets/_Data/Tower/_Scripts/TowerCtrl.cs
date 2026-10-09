@@ -3,7 +3,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class TowerCtrl : SaiMonoBehaviour
+public class TowerCtrl : BaseMonoBehaviour
 {
     [SerializeField] protected Transform model;
     [SerializeField] protected Transform rotator;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FlyToTarget : SaiMonoBehaviour
+public class FlyToTarget : BaseMonoBehaviour
 {
     protected Transform target;
     [SerializeField] protected float speed = 34f;

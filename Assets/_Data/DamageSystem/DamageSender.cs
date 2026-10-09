@@ -5,7 +5,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 
-public abstract class DamageSender : SaiMonoBehaviour
+public abstract class DamageSender : BaseMonoBehaviour
 {
     [SerializeField] protected Rigidbody rigidbody;
     [SerializeField] protected int damage = 10;
